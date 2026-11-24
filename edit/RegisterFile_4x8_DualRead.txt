@@ -1,0 +1,1148 @@
+{
+  "app": "DashLogicSimulator",
+  "version": "1.7",
+  "workspaces": [
+    {
+      "id": "ws_register_file",
+      "name": "Dual-Read Register File",
+      "nodes": [
+        {
+          "id": "node_yqrlvs8o0",
+          "type": "text_label",
+          "x": 100,
+          "y": 40,
+          "label": "Dual-Read 16x8 Register File (4-Bit Address, 8-Bit Word)",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_umr3lurox",
+          "type": "text_label",
+          "x": 100,
+          "y": 80,
+          "label": "Simulated using two parallel 16x8 RAM blocks. Toggle \"Write Mode\" to point RAMs to the Write Address bus, then toggle WE & Pulse CLK.",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_8q0htdf2m",
+          "type": "toggle",
+          "x": 100,
+          "y": 160,
+          "label": "Read Addr A [0]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_8zvm6vekv",
+          "type": "toggle",
+          "x": 100,
+          "y": 225,
+          "label": "Read Addr A [1]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_dskmxlium",
+          "type": "toggle",
+          "x": 100,
+          "y": 290,
+          "label": "Read Addr A [2]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_nq9pauyxe",
+          "type": "toggle",
+          "x": 100,
+          "y": 355,
+          "label": "Read Addr A [3]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_q22zigwab",
+          "type": "toggle",
+          "x": 260,
+          "y": 160,
+          "label": "Read Addr B [0]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_xz1bblyv4",
+          "type": "toggle",
+          "x": 260,
+          "y": 225,
+          "label": "Read Addr B [1]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_d91jq3tma",
+          "type": "toggle",
+          "x": 260,
+          "y": 290,
+          "label": "Read Addr B [2]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_lj0xbiil5",
+          "type": "toggle",
+          "x": 260,
+          "y": 355,
+          "label": "Read Addr B [3]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_f40jjbv1m",
+          "type": "toggle",
+          "x": 420,
+          "y": 160,
+          "label": "Write Addr [0]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_gii8igdnr",
+          "type": "toggle",
+          "x": 420,
+          "y": 225,
+          "label": "Write Addr [1]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_lte04ns9l",
+          "type": "toggle",
+          "x": 420,
+          "y": 290,
+          "label": "Write Addr [2]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_ujgrypasd",
+          "type": "toggle",
+          "x": 420,
+          "y": 355,
+          "label": "Write Addr [3]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_arlgyzrdx",
+          "type": "toggle",
+          "x": 100,
+          "y": 480,
+          "label": "Data In [0]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_dn7zf9ghv",
+          "type": "toggle",
+          "x": 100,
+          "y": 535,
+          "label": "Data In [1]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_2czsvx9ur",
+          "type": "toggle",
+          "x": 100,
+          "y": 590,
+          "label": "Data In [2]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_s9ia2bv5j",
+          "type": "toggle",
+          "x": 100,
+          "y": 645,
+          "label": "Data In [3]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_9xg4eyohn",
+          "type": "toggle",
+          "x": 100,
+          "y": 700,
+          "label": "Data In [4]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_ppfbd4x5y",
+          "type": "toggle",
+          "x": 100,
+          "y": 755,
+          "label": "Data In [5]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_q2cc9c5j5",
+          "type": "toggle",
+          "x": 100,
+          "y": 810,
+          "label": "Data In [6]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_ae0nkg74b",
+          "type": "toggle",
+          "x": 100,
+          "y": 865,
+          "label": "Data In [7]",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_us83k1tzq",
+          "type": "toggle",
+          "x": 420,
+          "y": 480,
+          "label": "Write Mode (Pass Write Addr)",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_dwc4quhpr",
+          "type": "toggle",
+          "x": 420,
+          "y": 560,
+          "label": "Write Enable (WE)",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_sz29ytwgn",
+          "type": "pushbutton",
+          "x": 420,
+          "y": 640,
+          "label": "Clock Pulse (CLK)",
+          "inputsCount": 0,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_z4wd7e3nk",
+          "type": "configurable_mux",
+          "x": 620,
+          "y": 160,
+          "label": "AddrA MUX [0]",
+          "inputsCount": 3,
+          "customState": {
+            "selectBits": 1,
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_5nh2nd4y6",
+          "type": "configurable_mux",
+          "x": 620,
+          "y": 320,
+          "label": "AddrA MUX [1]",
+          "inputsCount": 3,
+          "customState": {
+            "selectBits": 1,
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_tn2skvu6j",
+          "type": "configurable_mux",
+          "x": 620,
+          "y": 480,
+          "label": "AddrA MUX [2]",
+          "inputsCount": 3,
+          "customState": {
+            "selectBits": 1,
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_epi5wmfxs",
+          "type": "configurable_mux",
+          "x": 620,
+          "y": 640,
+          "label": "AddrA MUX [3]",
+          "inputsCount": 3,
+          "customState": {
+            "selectBits": 1,
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_aylyt12pu",
+          "type": "configurable_mux",
+          "x": 780,
+          "y": 160,
+          "label": "AddrB MUX [0]",
+          "inputsCount": 3,
+          "customState": {
+            "selectBits": 1,
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_6weeb4qkb",
+          "type": "configurable_mux",
+          "x": 780,
+          "y": 320,
+          "label": "AddrB MUX [1]",
+          "inputsCount": 3,
+          "customState": {
+            "selectBits": 1,
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_8e68r1jly",
+          "type": "configurable_mux",
+          "x": 780,
+          "y": 480,
+          "label": "AddrB MUX [2]",
+          "inputsCount": 3,
+          "customState": {
+            "selectBits": 1,
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_52fbhqz92",
+          "type": "configurable_mux",
+          "x": 780,
+          "y": 640,
+          "label": "AddrB MUX [3]",
+          "inputsCount": 3,
+          "customState": {
+            "selectBits": 1,
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_0sf5yq4iy",
+          "type": "configurable_ram",
+          "x": 960,
+          "y": 180,
+          "label": "RAM Block A (Read Port A)",
+          "inputsCount": 14,
+          "customState": {
+            "addressSize": 4,
+            "wordSize": 8,
+            "memory": {},
+            "rotation": 0,
+            "activeAddrDecimal": 0,
+            "lastClk": false,
+            "activeDataOut": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        {
+          "id": "node_66fcqgyhg",
+          "type": "configurable_ram",
+          "x": 960,
+          "y": 500,
+          "label": "RAM Block B (Read Port B)",
+          "inputsCount": 14,
+          "customState": {
+            "addressSize": 4,
+            "wordSize": 8,
+            "memory": {},
+            "rotation": 0,
+            "activeAddrDecimal": 0,
+            "lastClk": false,
+            "activeDataOut": [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false
+            ]
+          }
+        },
+        {
+          "id": "node_9kia9d86c",
+          "type": "display_decimal",
+          "x": 1240,
+          "y": 180,
+          "label": "Port A Value",
+          "inputsCount": 8,
+          "customState": {
+            "rotation": 0,
+            "renderedDecimalValue": 0
+          }
+        },
+        {
+          "id": "node_vw22npmx2",
+          "type": "display_decimal",
+          "x": 1240,
+          "y": 500,
+          "label": "Port B Value",
+          "inputsCount": 8,
+          "customState": {
+            "rotation": 0,
+            "renderedDecimalValue": 0
+          }
+        },
+        {
+          "id": "node_q0gh2j2s6",
+          "type": "lightbulb",
+          "x": 1420,
+          "y": 150,
+          "label": "OutA[0]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_zszwhqd1l",
+          "type": "lightbulb",
+          "x": 1420,
+          "y": 195,
+          "label": "OutA[1]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_kioi4a2k6",
+          "type": "lightbulb",
+          "x": 1420,
+          "y": 240,
+          "label": "OutA[2]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_x9fr8cc8w",
+          "type": "lightbulb",
+          "x": 1420,
+          "y": 285,
+          "label": "OutA[3]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_pksz4ftm1",
+          "type": "lightbulb",
+          "x": 1420,
+          "y": 330,
+          "label": "OutA[4]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_8ytb5a8z8",
+          "type": "lightbulb",
+          "x": 1420,
+          "y": 375,
+          "label": "OutA[5]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_m52cied17",
+          "type": "lightbulb",
+          "x": 1420,
+          "y": 420,
+          "label": "OutA[6]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_c9s65p1ir",
+          "type": "lightbulb",
+          "x": 1420,
+          "y": 465,
+          "label": "OutA[7]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_u8zc0naf4",
+          "type": "lightbulb",
+          "x": 1540,
+          "y": 150,
+          "label": "OutB[0]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_gutytfjfm",
+          "type": "lightbulb",
+          "x": 1540,
+          "y": 195,
+          "label": "OutB[1]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_jhtypyxlu",
+          "type": "lightbulb",
+          "x": 1540,
+          "y": 240,
+          "label": "OutB[2]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_fcroplf6w",
+          "type": "lightbulb",
+          "x": 1540,
+          "y": 285,
+          "label": "OutB[3]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_gyc72nplo",
+          "type": "lightbulb",
+          "x": 1540,
+          "y": 330,
+          "label": "OutB[4]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_jm8onmucj",
+          "type": "lightbulb",
+          "x": 1540,
+          "y": 375,
+          "label": "OutB[5]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_u8y1dci2c",
+          "type": "lightbulb",
+          "x": 1540,
+          "y": 420,
+          "label": "OutB[6]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        },
+        {
+          "id": "node_ds22ckfq5",
+          "type": "lightbulb",
+          "x": 1540,
+          "y": 465,
+          "label": "OutB[7]",
+          "inputsCount": 1,
+          "customState": {
+            "rotation": 0
+          }
+        }
+      ],
+      "wires": [
+        {
+          "from": "node_8q0htdf2m",
+          "fromPort": 0,
+          "to": "node_z4wd7e3nk",
+          "toPort": 0
+        },
+        {
+          "from": "node_8zvm6vekv",
+          "fromPort": 0,
+          "to": "node_5nh2nd4y6",
+          "toPort": 0
+        },
+        {
+          "from": "node_dskmxlium",
+          "fromPort": 0,
+          "to": "node_tn2skvu6j",
+          "toPort": 0
+        },
+        {
+          "from": "node_nq9pauyxe",
+          "fromPort": 0,
+          "to": "node_epi5wmfxs",
+          "toPort": 0
+        },
+        {
+          "from": "node_f40jjbv1m",
+          "fromPort": 0,
+          "to": "node_z4wd7e3nk",
+          "toPort": 1
+        },
+        {
+          "from": "node_gii8igdnr",
+          "fromPort": 0,
+          "to": "node_5nh2nd4y6",
+          "toPort": 1
+        },
+        {
+          "from": "node_lte04ns9l",
+          "fromPort": 0,
+          "to": "node_tn2skvu6j",
+          "toPort": 1
+        },
+        {
+          "from": "node_ujgrypasd",
+          "fromPort": 0,
+          "to": "node_epi5wmfxs",
+          "toPort": 1
+        },
+        {
+          "from": "node_q22zigwab",
+          "fromPort": 0,
+          "to": "node_aylyt12pu",
+          "toPort": 0
+        },
+        {
+          "from": "node_xz1bblyv4",
+          "fromPort": 0,
+          "to": "node_6weeb4qkb",
+          "toPort": 0
+        },
+        {
+          "from": "node_d91jq3tma",
+          "fromPort": 0,
+          "to": "node_8e68r1jly",
+          "toPort": 0
+        },
+        {
+          "from": "node_lj0xbiil5",
+          "fromPort": 0,
+          "to": "node_52fbhqz92",
+          "toPort": 0
+        },
+        {
+          "from": "node_f40jjbv1m",
+          "fromPort": 0,
+          "to": "node_aylyt12pu",
+          "toPort": 1
+        },
+        {
+          "from": "node_gii8igdnr",
+          "fromPort": 0,
+          "to": "node_6weeb4qkb",
+          "toPort": 1
+        },
+        {
+          "from": "node_lte04ns9l",
+          "fromPort": 0,
+          "to": "node_8e68r1jly",
+          "toPort": 1
+        },
+        {
+          "from": "node_ujgrypasd",
+          "fromPort": 0,
+          "to": "node_52fbhqz92",
+          "toPort": 1
+        },
+        {
+          "from": "node_us83k1tzq",
+          "fromPort": 0,
+          "to": "node_z4wd7e3nk",
+          "toPort": 2
+        },
+        {
+          "from": "node_us83k1tzq",
+          "fromPort": 0,
+          "to": "node_aylyt12pu",
+          "toPort": 2
+        },
+        {
+          "from": "node_us83k1tzq",
+          "fromPort": 0,
+          "to": "node_5nh2nd4y6",
+          "toPort": 2
+        },
+        {
+          "from": "node_us83k1tzq",
+          "fromPort": 0,
+          "to": "node_6weeb4qkb",
+          "toPort": 2
+        },
+        {
+          "from": "node_us83k1tzq",
+          "fromPort": 0,
+          "to": "node_tn2skvu6j",
+          "toPort": 2
+        },
+        {
+          "from": "node_us83k1tzq",
+          "fromPort": 0,
+          "to": "node_8e68r1jly",
+          "toPort": 2
+        },
+        {
+          "from": "node_us83k1tzq",
+          "fromPort": 0,
+          "to": "node_epi5wmfxs",
+          "toPort": 2
+        },
+        {
+          "from": "node_us83k1tzq",
+          "fromPort": 0,
+          "to": "node_52fbhqz92",
+          "toPort": 2
+        },
+        {
+          "from": "node_z4wd7e3nk",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 0
+        },
+        {
+          "from": "node_aylyt12pu",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 0
+        },
+        {
+          "from": "node_5nh2nd4y6",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 1
+        },
+        {
+          "from": "node_6weeb4qkb",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 1
+        },
+        {
+          "from": "node_tn2skvu6j",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 2
+        },
+        {
+          "from": "node_8e68r1jly",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 2
+        },
+        {
+          "from": "node_epi5wmfxs",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 3
+        },
+        {
+          "from": "node_52fbhqz92",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 3
+        },
+        {
+          "from": "node_arlgyzrdx",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 4
+        },
+        {
+          "from": "node_arlgyzrdx",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 4
+        },
+        {
+          "from": "node_dn7zf9ghv",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 5
+        },
+        {
+          "from": "node_dn7zf9ghv",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 5
+        },
+        {
+          "from": "node_2czsvx9ur",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 6
+        },
+        {
+          "from": "node_2czsvx9ur",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 6
+        },
+        {
+          "from": "node_s9ia2bv5j",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 7
+        },
+        {
+          "from": "node_s9ia2bv5j",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 7
+        },
+        {
+          "from": "node_9xg4eyohn",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 8
+        },
+        {
+          "from": "node_9xg4eyohn",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 8
+        },
+        {
+          "from": "node_ppfbd4x5y",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 9
+        },
+        {
+          "from": "node_ppfbd4x5y",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 9
+        },
+        {
+          "from": "node_q2cc9c5j5",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 10
+        },
+        {
+          "from": "node_q2cc9c5j5",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 10
+        },
+        {
+          "from": "node_ae0nkg74b",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 11
+        },
+        {
+          "from": "node_ae0nkg74b",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 11
+        },
+        {
+          "from": "node_dwc4quhpr",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 12
+        },
+        {
+          "from": "node_dwc4quhpr",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 12
+        },
+        {
+          "from": "node_sz29ytwgn",
+          "fromPort": 0,
+          "to": "node_0sf5yq4iy",
+          "toPort": 13
+        },
+        {
+          "from": "node_sz29ytwgn",
+          "fromPort": 0,
+          "to": "node_66fcqgyhg",
+          "toPort": 13
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 0,
+          "to": "node_9kia9d86c",
+          "toPort": 0
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 0,
+          "to": "node_q0gh2j2s6",
+          "toPort": 0
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 0,
+          "to": "node_vw22npmx2",
+          "toPort": 0
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 0,
+          "to": "node_u8zc0naf4",
+          "toPort": 0
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 1,
+          "to": "node_9kia9d86c",
+          "toPort": 1
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 1,
+          "to": "node_zszwhqd1l",
+          "toPort": 0
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 1,
+          "to": "node_vw22npmx2",
+          "toPort": 1
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 1,
+          "to": "node_gutytfjfm",
+          "toPort": 0
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 2,
+          "to": "node_9kia9d86c",
+          "toPort": 2
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 2,
+          "to": "node_kioi4a2k6",
+          "toPort": 0
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 2,
+          "to": "node_vw22npmx2",
+          "toPort": 2
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 2,
+          "to": "node_jhtypyxlu",
+          "toPort": 0
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 3,
+          "to": "node_9kia9d86c",
+          "toPort": 3
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 3,
+          "to": "node_x9fr8cc8w",
+          "toPort": 0
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 3,
+          "to": "node_vw22npmx2",
+          "toPort": 3
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 3,
+          "to": "node_fcroplf6w",
+          "toPort": 0
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 4,
+          "to": "node_9kia9d86c",
+          "toPort": 4
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 4,
+          "to": "node_pksz4ftm1",
+          "toPort": 0
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 4,
+          "to": "node_vw22npmx2",
+          "toPort": 4
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 4,
+          "to": "node_gyc72nplo",
+          "toPort": 0
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 5,
+          "to": "node_9kia9d86c",
+          "toPort": 5
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 5,
+          "to": "node_8ytb5a8z8",
+          "toPort": 0
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 5,
+          "to": "node_vw22npmx2",
+          "toPort": 5
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 5,
+          "to": "node_jm8onmucj",
+          "toPort": 0
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 6,
+          "to": "node_9kia9d86c",
+          "toPort": 6
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 6,
+          "to": "node_m52cied17",
+          "toPort": 0
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 6,
+          "to": "node_vw22npmx2",
+          "toPort": 6
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 6,
+          "to": "node_u8y1dci2c",
+          "toPort": 0
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 7,
+          "to": "node_9kia9d86c",
+          "toPort": 7
+        },
+        {
+          "from": "node_0sf5yq4iy",
+          "fromPort": 7,
+          "to": "node_c9s65p1ir",
+          "toPort": 0
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 7,
+          "to": "node_vw22npmx2",
+          "toPort": 7
+        },
+        {
+          "from": "node_66fcqgyhg",
+          "fromPort": 7,
+          "to": "node_ds22ckfq5",
+          "toPort": 0
+        }
+      ],
+      "camera": {
+        "x": 50,
+        "y": 30,
+        "zoom": 0.72
+      }
+    }
+  ],
+  "customPrefabs": [],
+  "customICs": []
+}

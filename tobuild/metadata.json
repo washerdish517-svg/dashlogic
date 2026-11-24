@@ -1,0 +1,6 @@
+{
+  "name": "DashLogic Simulator",
+  "description": "An advanced, high-frequency logic gate and CPU simulator featuring multi-workspace boards, configurable RAM cells, multiplexers, binary decoders, carry-lookahead ALUs, ASCII terminals, and double-buffered graphics screens.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
